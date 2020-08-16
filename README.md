@@ -4,12 +4,12 @@ This respository contains all the files needed to run a web app about the classi
 numpy, pandas, nltk
 ## Files in this repository
 ### HTML files:
-go.html
+go.html  
 master.html
 ### Training file: 
 train_classifier.py
 ### Cleaning data:
 process_data.py
 ### Run the  web app:
-run.py
-## how to run the python script
+run.py: contains the data needed for the plots and the code to plot the barplots
+## Run the python script
