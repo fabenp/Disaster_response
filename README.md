@@ -10,10 +10,10 @@ disaster_messages.csv: A table with the original message (many are in another la
 ### HTML files:
 go.html : HTML code needed to return the classification result of the entered message by the user.  
 master.html: HTML code for the design of the web app.
-### Training file: 
-train_classifier.py
 ### Cleaning data:
-process_data.py
+process_data.py: prepare the training data and store it for later use 
+### Training file: 
+train_classifier.py: use the cleaned data to train a pipeline and improve the accuracy of prediction of the model
 ### Run the  web app:
 run.py: file to run in order to run the web app. It contains the data needed for the plots and the code to plot the barplots  
 ## Run the python script:
