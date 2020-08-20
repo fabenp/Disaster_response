@@ -38,7 +38,7 @@ def index():
     df_weather=pd.DataFrame(df_weather.astype(int).sum(axis=0))
     df_weather['percentage']=(df_weather/(df_weather.sum(axis=1).sum()))
     percentage=df_weather['percentage'].values
-    types=df_weather.index
+    types=df_weather.index 
     # data needed to plot the percentages of the types of messages. All columns related to weather were dropped since the column' related to           weather" is the sum of them
     df_class=df.drop(['message','original','genre','earthquake','cold','other_weather','floods','storm'], axis=1)    
  
