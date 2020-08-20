@@ -30,3 +30,5 @@ This will show the credentials needed for the web app address
 Link: https://github.com/fabenp/Disaster_response
 
 ![d](https://user-images.githubusercontent.com/55113875/90811669-01011580-e2f3-11ea-9a7c-c1dd4e4a68d3.GIF)
+![d2](https://user-images.githubusercontent.com/55113875/90812343-fa26d280-e2f3-11ea-8691-cfc3cea7c4e1.GIF)
+![d3](https://user-images.githubusercontent.com/55113875/90812357-001cb380-e2f4-11ea-81df-4eb3e5512bd7.GIF)
