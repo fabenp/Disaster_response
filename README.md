@@ -18,8 +18,8 @@ train_classifier.py: use the cleaned data to train a pipeline and improve the ac
 run.py: file to run in order to access the web app. It contains the data needed for the plots and the code to plot the barplots. 
 ## Run the python script:
 run in the command line:
-python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db  
-python models/train_classifier.py  data/DisasterResponse.db models/classifier.pkl
+python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db  
+python train_classifier.py  DisasterResponse.db classifier.pkl
 
 to run the app,acces the folder containing the run.py file and type in  the command line:  
 python run.py    
